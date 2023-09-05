@@ -1,27 +1,61 @@
-# React + TypeScript + Vite
+<div align='center'>
+  <img src="preview/preview.gif" alt="Logo">
+</div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align='center'>
+IGCoffee Delivery
+</h1>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+ # 💻 Projeto
+ 
+O projeto faz parte do segundo desafio do Ignite. A Coffee Delivery é uma Loja on-line de cafés com a opção de delivery, onde o usuário pode adicionar os produtos desejados  ao carrinho de compras e em seguida preencher seu endereço e a forma de pagamento.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
+ # Foram usadas as seguintes tecnologias:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+- [ViteJS](https://vitejs.dev/);
+- [ReactJS](https://pt-br.reactjs.org/);
+- [Typescript](https://www.typescriptlang.org/);
+- [React Router Dom](https://v5.reactrouter.com/web/guides/quick-start);
+- [Styled Components](https://styled-components.com/);
+- [Context API](https://reactjs.org/docs/context.html);
+- [React Hook Form](https://react-hook-form.com/);
+- [Immer](https://immerjs.github.io/immer/);
+- [Zod](https://github.com/colinhacks/zod);
+- [Phosphor Icons](https://phosphoricons.com/);
+
+
+## Para executar o projeto:
+
+Clone o projeto e acesse a pasta aulas/igcoffee-delivery
+
+## Para executar o projeto:
+
+Clone o projeto e acesse a pasta aulas/igcoffee-delivery
+
+```bash
+$ git clone https://github.com/betobala/coffee-delivery.git
+```
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ npm install
+
+# Iniciar o projeto
+$ npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+
+
+
+
+
+
+
+
+
+
+
